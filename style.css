@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:100i,300,400,500,800&display=swap');
 
 * {
+  
   font-family: 'Montserrat';
   margin: 0;
   box-sizing: border-box;
@@ -11,19 +12,30 @@ body {
   background-color: rgb(62, 59, 59);
   color: white;
   height: 100vh;
+  
+  
 }
 
 header {
   /* your code */
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
 }
 
 main {
   /* your code */
+  display: flex;
+  
 }
 main nav {
   border: .1rem solid purple;
   padding: 1rem;
   /* your code */
+  display: flex;
+  flex-direction: column;
+   
+  
 }
 main a {
   width: 5rem;
@@ -34,6 +46,12 @@ main a {
 
 .dog-list-container {
   /* your code */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: left;
+
+  
 }
 
 .fluid-text {
